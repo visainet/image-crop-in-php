@@ -1,2 +1,2 @@
 # custom-crop-image-camscaner-php
-I'm devloped a custom images scanner with crop function and you can be able to use webcam to capture images and also you can use choose file method
+A Responsive custom image capture from camera or webcam and you will be able to select local images, 
