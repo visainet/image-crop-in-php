@@ -20,8 +20,9 @@ Step 3.Now we done, just go to your google chrome and type url http://localhost/
        
        Here you can crop images as you want 
        
-![Screenshot (3)](https://user-images.githubusercontent.com/52371562/136649447-ddaf1555-e102-4205-aaeb-f2c00d627fb2.png)
-![Screenshot (4)](https://user-images.githubusercontent.com/52371562/136649456-e16c485a-bd71-43dc-b1ec-1c364014cd45.png)
+![Screenshot (6)](https://user-images.githubusercontent.com/52371562/136649712-54687275-a9a9-4c2e-b60f-830f47ff4854.png)
+
+![Screenshot (5)](https://user-images.githubusercontent.com/52371562/136649720-f8dac6dc-14fe-4400-a501-0702079be705.png)
 
 
 >>If you face any problem write your problem in issue
