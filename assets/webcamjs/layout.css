@@ -1,0 +1,238 @@
+/*-------------------------------------
+Template Name: A2ZWebhelp 
+Template URI: https://www.a2zwebhelp.com
+Version: 2.0
+---------------------------------------
+
+/*---------------------------------------
+    Default CSS
+---------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600');
+* {
+    margin:0;
+    padding:0
+}
+.a2z-wrapper a {
+    text-decoration:none
+}
+.a2z-wrapper a:hover,
+.a2z-wrapper a:focus {
+    text-decoration:none
+}
+.a2z-wrapper ul{
+    margin-bottom: 0;
+}
+.a2z-wrapper li {
+    list-style:none
+}
+.a2z-wrapper p{
+	margin: 0;
+}
+
+.a2z-wrapper{
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #353940;
+	background: url(../img/bg.jpg) no-repeat top center;
+    text-transform: capitalize;
+    overflow-x: hidden;
+}
+
+
+.a2z-area{
+	padding: 60px 0;
+}
+
+.a2z-area{
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.error {color: #FF0000;}
+
+.avatararea{
+	border:1px solid #4BA4F2;
+	background:#FFF;
+	border-radius: 15px;
+	min-height: 250px;
+}
+.avatararea h3{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 25px;
+}
+.avatararea ul{
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.avatararea ul li{
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 16px;
+}
+.avatarimage{
+	display: inline-block;
+	border: 1px solid #f15e1b;
+	margin: 20px 0 0 30px;
+	position:relative;
+}
+
+.avatarimage p{
+	background: rgba(209, 62, 0, 0.7);
+	padding: 4px 5px;
+	text-align: center;
+	color: #FFF;
+	font-size: 15px;
+	position:absolute;
+	width: 100%;
+	bottom:0px;
+}
+.progress{
+	display: none;
+}
+.alert{
+	display: none;
+}
+.buttonarea{
+	display: inline-block;
+	margin: 10px 0 30px 30px;
+}
+.upload{
+	  background-color: #edaf11;
+	  border: none;
+	  color: white;
+	  padding: 6px 16px;
+	  font-size: 15px;
+	  cursor: pointer;
+	  margin: 0;
+}
+.upload:hover{
+	  background-color: #fad99b;
+}
+
+.camera{
+	  background-color: #00eeff;
+	  border: none;
+	  color: white;
+	  padding: 6px 16px;
+	  font-size: 15px;
+	  cursor: pointer;
+	  margin: 0 0 0 8px;
+}
+
+.camera:hover{
+	background-color: #c5f9fc;
+}
+
+.btnsmall{
+	  background-color: #08c2d8;
+	  border: none;
+	  color: white;
+	  padding: 6px 16px;
+	  font-size: 15px;
+	  cursor: pointer;
+	  margin: 0 0 0 5px;
+}
+
+.btnsmall:hover{
+	  background-color: #068e9e;
+}
+.btngroup{
+	margin-top: 15px;
+}
+
+.modal-body {
+    width:680px; 
+    height:480px; 
+}
+.modal-dialog{
+    position: relative;
+    display: table; 
+    overflow-y: auto;    
+    overflow-x: auto;
+    width: auto;
+    min-width: 300px;   
+}
+#cropimage{
+	overflow: hidden;
+	width:640px;
+	height: 480px;
+}
+@media only screen and (max-width:767px){
+	
+	.imagearea {
+    margin: 0 auto;
+    float: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+	}
+	.buttonarea {margin: 10px 0 30px 0px;}
+	.avatarimage {
+    display: block;
+    margin: 0px auto;
+    max-width: 227px;
+	}
+	.avatararea ul {
+    margin: 20px auto;
+    padding: 0;
+    max-width: 280px;
+	}
+	.modal-dialog{
+    display: block; 
+	}
+	.modal-body { width: 100%; height: 480px;}
+	#cropimage{
+		overflow: hidden;
+		width:100%; 
+	}
+	#my_camera{width:100% !important;} 
+	#my_camera video {width:100% !important; height: auto !important; } 
+	#webcam_movie_obj{width:100% !important;}
+	#webcam_movie_embed {width:100% !important;}
+}
+@media only screen and (max-width:679px){
+	.modal-body {
+		width:100%; 		
+		height:100%; 
+	}
+	
+	#cropimage{
+		overflow: hidden;
+		height: 315px;
+		width:100%; 
+	}
+}
+@media only screen and (max-width:479px){
+	.modal-body {
+		width:100%; 		
+		height:100%; 
+	}
+	
+	#cropimage{
+		overflow: hidden;
+		height: 240px;
+		width:100%; 
+	}
+}
+@media only screen and (max-width:420px){
+.btnsmall { padding: 2px 7px; margin:0;}
+.upload1 {background-color: #2a649c; padding: 3px 10px; float:none !important; border: none; color: white;font-size: 15px; margin: 0;}
+.camera1 {
+    background-color: #00a58d;
+    border: none;
+    color: white;
+    padding:  3px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 0 0 5px;
+	}
+}
+/*---------------------------------------
+    Responsive css
+---------------------------------------*/
+.uploadfull{ display:block; width: 227px;}
+.camerahide{ display:none;}
